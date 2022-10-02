@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36536" started-at="2022-10-02T20:54:18 IST" finished-at="2022-10-02T20:54:55 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36536" started-at="2022-10-02T20:54:18 IST" finished-at="2022-10-02T20:54:55 IST">
+      <class name="ebanq.test.EBanqTest">
+        <test-method status="PASS" signature="initLogin()[pri:0, instance:ebanq.test.EBanqTest@6f195bc3]" name="initLogin" is-config="true" duration-ms="14344" started-at="2022-10-02T20:54:18 IST" finished-at="2022-10-02T20:54:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initLogin -->
+        <test-method status="PASS" signature="verifyWelcomeMsg()[pri:2, instance:ebanq.test.EBanqTest@6f195bc3]" name="verifyWelcomeMsg" duration-ms="434" started-at="2022-10-02T20:54:33 IST" description="verifies the login with welcome message" finished-at="2022-10-02T20:54:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWelcomeMsg -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ebanq.test.EBanqTest@6f195bc3]" name="tearDown" is-config="true" duration-ms="869" started-at="2022-10-02T20:54:33 IST" finished-at="2022-10-02T20:54:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initLogin()[pri:0, instance:ebanq.test.EBanqTest@6f195bc3]" name="initLogin" is-config="true" duration-ms="10995" started-at="2022-10-02T20:54:34 IST" finished-at="2022-10-02T20:54:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initLogin -->
+        <test-method status="PASS" signature="verifySuccessMsg()[pri:3, instance:ebanq.test.EBanqTest@6f195bc3]" name="verifySuccessMsg" duration-ms="8935" started-at="2022-10-02T20:54:45 IST" description="verifies the amount transfer successfully with success message" finished-at="2022-10-02T20:54:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessMsg -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ebanq.test.EBanqTest@6f195bc3]" name="tearDown" is-config="true" duration-ms="879" started-at="2022-10-02T20:54:54 IST" finished-at="2022-10-02T20:54:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ebanq.test.EBanqTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
